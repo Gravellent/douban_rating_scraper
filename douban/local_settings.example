@@ -1,0 +1,9 @@
+from urllib.parse import quote_plus
+
+MONGO_HOST = 'localhost:27017'
+MONGO_USER = 'root'
+MONGO_PASS = '123'
+
+MONGO_URI = "mongodb://%s:%s@%s" % (
+    quote_plus(MONGO_USER), quote_plus(MONGO_PASS), MONGO_HOST)
+MONGO_DATABASE = 'douban'
