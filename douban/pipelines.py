@@ -10,7 +10,7 @@ import pymongo
 
 class DoubanPipeline(object):
     
-    collection_name = 'douban_movie_ratings_test'
+    collection_name = 'douban_movie_ratings'
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri

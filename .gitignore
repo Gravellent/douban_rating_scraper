@@ -2,4 +2,5 @@
 
 *.pyc
 mongo_db_set_up
-local_settings.py
+*local_settings.py
+scripts
