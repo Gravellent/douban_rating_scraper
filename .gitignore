@@ -4,3 +4,5 @@
 mongo_db_set_up
 *local_settings.py
 scripts
+reports
+*.DS_Store
